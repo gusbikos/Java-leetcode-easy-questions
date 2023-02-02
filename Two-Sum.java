@@ -1,7 +1,7 @@
 import java.util.HashMap;
 
 // Brute Force
-// Time complexity: O n2
+// Time complexity: O(n2)
 class Solution {
     public int[] twoSum(int[] nums, int target) {
         for ( int i = 0; i < nums.length; i++ ) {
@@ -15,7 +15,8 @@ class Solution {
     }
 }
 
-
+// Using a Hashmap
+// Time Complexity : O(n)
 class Solutionz {
     public int[] twoSumz(int[] numz, int targetz) {
         HashMap<Integer, Integer> map = new HashMap<>();
